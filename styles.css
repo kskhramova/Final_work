@@ -1,0 +1,130 @@
+
+.about-me h1{
+font-size: 100px;
+text-transform: uppercase;
+}
+.about-me h5{
+    font-size: 38px;
+}
+.about-me p{
+    text-align: justify;
+    font-size: 16px;
+    line-height: 20px;
+}
+.main-info {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.main-info button{
+    width: 150px;
+    height: 150px;
+    border: 2px dotted #000;
+    border-radius: 100%;
+    margin: 10px;
+    font-size: 20px;
+}
+a{
+    color: #000;
+    text-decoration: none;
+}
+
+.main-info button:hover{
+    color: #000;
+    background-color: rgba(166, 166, 166, 0.724);
+}
+.portfolio{
+    background-color: rgb(195, 24, 132);
+}
+.game{
+    background-color: rgb(126, 188, 126);
+}
+.contacts
+{
+    background-color: rgb(115, 165, 221);
+}
+.myPhoto img{
+    border-radius: 15px;
+    width: 400px;
+    height: auto;
+}
+
+
+footer div{
+    padding-bottom: 10px;
+}
+.social img{
+    width: 25px;
+    height: 25pxs;
+}
+
+/*стили для вкладки Контакты*/
+
+.contact-me{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.contact-me p{
+margin-bottom: 30px;
+}
+.contact-me-form{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.email_label::after {
+    content: "*";
+    color: #FF0000;
+  }
+#input_massage{
+    width: 300px;
+    height: 200px;
+}
+.button_contact-me{
+    width: 150px;
+    height: 150px;
+    border: 2px dotted #000;
+    border-radius: 100%;
+    margin: 10px;
+    font-size: 20px;
+    background-color: rgb(115, 165, 221);
+}
+.button_contact-me:hover{
+    color: #000;
+    background-color: rgba(166, 166, 166, 0.724);
+}
+textarea {
+	resize: none;
+	width: 250px;
+	height: 150px;
+}
+
+/*стили для вкладки Портфолио*/
+.about-works p{
+    text-align: justify;
+    font-size: 16px;
+    line-height: 20px;
+}
+.works {
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+.works h2{
+    margin-bottom: 80px;
+}
+.btn{
+    margin-bottom: 100px;
+}
+.carousel-caption{
+    background-color: rgba(93, 90, 90, 0.642);
+    color: #FFF;
+}
+.hard-skills img{
+    width: 60px;
+    height: auto;
+    margin-right: 25px;
+}
+.carousel{
+    margin-bottom: 100px;
+}
+h3{
+    margin-bottom: 30px;
+}

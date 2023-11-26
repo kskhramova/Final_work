@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>KsKhramova FrontendDev</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="icon" type="image" href="./img/icon_contacts.png">   
+    <link rel="stylesheet" href="./styles.css">
+<body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary ">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="./index.html">Ксения Храмова</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Переключатель навигации">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a  class="nav-link" href="./portfolio.html">Портфолио</a>
+              </li>
+              <li class="nav-item">
+                <a target="_blank" class="nav-link" href="./game.html">Игра</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./contacts.html">Контакты</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <div class="container">
+        <div class="row">
+          <div class="contact-me col-12 col-md-6">
+            <h4>Контакты</h4>
+            <p>Здесь вы можете связаться со мной</p>
+            <h6>Телефон</h6>
+            <p><a href="tel:+7 (912) 398-35-48">+7 (912) 398-35-48</a></p>
+            <h6>Эл. адрес</h6>
+            <p><a href="mailto:ks.khramova@yandex.ru">ks.khramova@yandex.ru</a></p>
+          </div>
+          <div class="col-12 col-md-6">
+            <form class="contact-me-form">
+              <label for="input_name" class="text-input_label">Имя</label><br>
+              <input id="input_name" class="text-input" type="text" title="Напишите как к вам обращаться" maxlength="100"><br>
+              <label for="input_email" class="text-input_label email_label">Эл. адрес</label><br>
+              <input id="input_email" class="text-input" type="email" required="true" title="Введите свой email" maxlength="250"><br>
+              <label for="input_massage" class="text-input_label">Сообщение</label><br>
+              <textarea title="Опишите свой вопрос или предложение" maxlength="1000"></textarea>
+              <button class="button_contact-me" type="submit"><span>Отправить</span></button>
+            </form>
+          </div>
+        </div>
+      </div>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+</body>
+<footer class="container">
+    <div class="row">
+        <div class="col-12 col-md-3">
+            <h6>Телефон</h6>
+            <a href="tel:+7 (912) 398-35-48">+7 (912) 398-35-48</a>
+        </div>
+        <div class="col-12 col-md-3">
+            <h6>Эл. адрес</h6>
+            <a href="mailto:ks.khramova@yandex.ru">ks.khramova@yandex.ru</a>
+        </div>
+        <div class="social col-12 col-md-3">
+            <h6>Соц. сети</h6>
+            <a target="_blank" href="https://www.linkedin.com/in/kskhramova/"><img src="./img/linkedin_icon.png" alt="linkedin icon"></a>
+            <a target="_blank" href="https://www.t.me/ks_khramova"><img src="./img/telegram_icon.png" alt="telegram icon"></a>
+            <a target="_blank" href="https://github.com/kskhramova"><img src="./img/github_icon.png" alt="github icon"></a>
+        </div>
+        <div class="col-12 col-md-3">
+            <p>&copy; 2023 Ксения Храмова</p>
+        </div>
+    </div>
+</footer>
+</html>
